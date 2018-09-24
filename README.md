@@ -17,6 +17,8 @@ Just another editor - Maybe with a twist?
 - Open Fullscreen / zen mode - Click fullscreen
 - Write A Best Selling Novel - Probably not, but give it a shot anyways!
 
-###
+### Info's
 
 No warranty given, it was built in 10 minutes (ish)
+
+[Visit the editor live](https://shadowcodex.github.io/jae)
