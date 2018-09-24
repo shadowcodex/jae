@@ -20,9 +20,9 @@
         #editor-container {
             border: 1px dashed grey;
             position: absolute;
-            top: 15px;
-            left: 15px;
-            right: 15px;
+            top: 25px;
+            left: 25px;
+            right: 25px;
             bottom: 35px;
         }
 
@@ -34,7 +34,7 @@
         #controls {
             position: absolute;            
             bottom: 10px;
-            left: 15px;
+            left: 25px;
             
         }
 
@@ -45,7 +45,7 @@
         #credits {
             position: absolute;
             bottom: 10px;
-            right: 15px;
+            right: 25px;
         }
     </style>
 </head>
@@ -63,6 +63,9 @@
     <script src="src/filesaver.js"></script>
     <script type="text/javascript">
         var quill = new Quill('#editor', { 
+          modules: {
+              toolbar: ['bold', 'italic', 'underline', 'strike', { 'header': '1' }, { 'header': '2' }, 'code-block', 'link']
+          },
           theme: 'bubble'
         });
         var play = document.getElementById("play");
